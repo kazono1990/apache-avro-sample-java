@@ -55,5 +55,10 @@ public class App {
             System.out.println(user);
         }
 
+
+        // GenericRecord sample
+        GenericRecordSample genericRecordSample = new GenericRecordSample("kazono", 256, "Black");
+        genericRecordSample.serialize();
+        genericRecordSample.deserialize();
     }
 }
